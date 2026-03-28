@@ -1,20 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css">
-  <title>Ehsan Moloudi</title>
+    <meta charset="UTF-8">
+    <title>Product Gallery</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div class="card">
-    <H1>This is Ehsan Moloudi</h1>
-    <img src="pic/ehsan.png" alt="ehsan moloudi pic"></img>
-    <h2>I am a front end developer</h2>
-    <p>Front-End Developer and WordPress Enthusiast with hands-on experience in building responsive and user-friendly websites. Passionate about creating custom WordPress themes and optimizing websites for SEO to improve visibility and user engagement. Skilled in HTML, CSS, JavaScript, and familiar with WordPress ecosystem, plugins, and theme development. I love combining clean design with technical performance to deliver websites that not only look great but rank well on search engines. Always eager to learn new web technologies and contribute to innovative projects.</p>
-    <button id="read-more-btn">Read more</button>
-    <p id="message"></p>
-  </div>
-  
-  <script src="script/script.js"></script>
+
+    <!-- Header -->
+    <header>
+        <h1>Product Gallery</h1>
+    </header>
+
+    <!-- Gallery -->
+    <section class="gallery">
+        <img src="pic/1.jpg" alt="">
+        <img src="pic/2.jpg" alt="">
+        <img src="pic/3.jpg" alt="">
+        <img src="pic/4.jpg" alt="">
+    </section>
+
+    <!-- Modal -->
+    <div class="modal" id="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-img">
+    </div>
+
+    <script src="script/script.js"></script>
 </body>
 </html>
